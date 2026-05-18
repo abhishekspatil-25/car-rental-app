@@ -1,0 +1,21 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "14.101.0"
+    },
+    "car_rental_app": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "4f48fd51627855d6b6a757ef61f151fd7b64e076",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    }
+}

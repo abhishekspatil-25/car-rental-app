@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:GMT+5:30
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20260414T113000
+DTEND;TZID=Asia/Kolkata:20260414T130000
+DTSTAMP:20260408T072939Z
+ORGANIZER;CN=H R:mailto:hr@indictranstech.com
+UID:529lqklhoqq4mvtaa8phkrmc6n@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=H R;X-NUM-GUESTS=0:mailto:hr@indictranstech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Abhishek Patil;X-NUM-GUESTS=0:mailto:abhishek.sp@indictranstech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=indictrans.com;X-NUM-GUESTS=0:mailto:indictrans.com@indictranstech.
+ com
+X-GOOGLE-CONFERENCE:https://meet.google.com/ycb-abdv-fox
+X-MICROSOFT-CDO-OWNERAPPTID:-2051869335
+CREATED:20260408T072924Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/yc
+ b-abdv-fox\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260408T072936Z
+LOCATION:https://meet.google.com/ycb-abdv-fox
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:TownHall | 14th April @ 11am by Core Team 
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

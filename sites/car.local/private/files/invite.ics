@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:GMT+5:30
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20260320T113000
+DTEND;TZID=Asia/Kolkata:20260320T114500
+RRULE:FREQ=WEEKLY;BYDAY=FR,MO,TH,TU,WE
+DTSTAMP:20260320T055746Z
+ORGANIZER;CN=Suryakant Kamble:mailto:suryakant.k@indictranstech.com
+UID:17p4hod21sq2l32b99842nuie1@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Abhishek Patil;X-NUM-GUESTS=0:mailto:abhishek.sp@indictranstech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Srushti Mahamulkar;X-NUM-GUESTS=0:mailto:srushti.m@indictranstech.c
+ om
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Suryakant Kamble;X-NUM-GUESTS=0:mailto:suryakant.k@indictranstech.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/crv-omdv-iid
+X-MICROSOFT-CDO-OWNERAPPTID:1992159377
+CREATED:20260320T055737Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/cr
+ v-omdv-iid\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260320T055745Z
+LOCATION:https://meet.google.com/crv-omdv-iid
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Daily Standup || Training || Task & Progress Review
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

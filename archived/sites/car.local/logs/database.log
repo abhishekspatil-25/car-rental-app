@@ -1,0 +1,166 @@
+2026-03-29 14:15:06,181 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWebhook Header` DROP INDEX `modified`
+2026-03-29 14:15:06,220 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWeb Form Field` DROP INDEX `modified`
+2026-03-29 14:15:06,270 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCommunication Link` DROP INDEX `modified`
+2026-03-29 14:15:06,326 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEvent Participants` DROP INDEX `modified`
+2026-03-29 14:15:06,363 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWeb Form List Column` DROP INDEX `modified`
+2026-03-29 14:15:06,419 WARNING database DDL Query made to DB:
+ALTER TABLE `tabInstalled Application` DROP INDEX `modified`
+2026-03-29 14:15:06,469 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWorkflow Document State` DROP INDEX `modified`
+2026-03-29 14:15:06,511 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWorkspace Shortcut` DROP INDEX `modified`
+2026-03-29 14:15:06,568 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWorkflow Transition` DROP INDEX `modified`
+2026-03-29 14:15:06,610 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSMS Parameter` DROP INDEX `modified`
+2026-03-29 14:15:06,660 WARNING database DDL Query made to DB:
+ALTER TABLE `tabNavbar Item` DROP INDEX `modified`
+2026-03-29 14:15:06,715 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCustomize Form Field` DROP INDEX `modified`
+2026-03-29 14:15:06,761 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWorkspace Link` DROP INDEX `modified`
+2026-03-29 14:15:06,806 WARNING database DDL Query made to DB:
+ALTER TABLE `tabUser Document Type` DROP INDEX `modified`
+2026-03-29 14:15:06,861 WARNING database DDL Query made to DB:
+ALTER TABLE `tabOAuth Client Role` DROP INDEX `modified`
+2026-03-29 14:15:06,902 WARNING database DDL Query made to DB:
+ALTER TABLE `tabTop Bar Item` DROP INDEX `modified`
+2026-03-29 14:15:06,954 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWebsite Route Redirect` DROP INDEX `modified`
+2026-03-29 14:15:07,008 WARNING database DDL Query made to DB:
+ALTER TABLE `tabReview Level` DROP INDEX `modified`
+2026-03-29 14:15:07,053 WARNING database DDL Query made to DB:
+ALTER TABLE `tabReport Filter` DROP INDEX `modified`
+2026-03-29 14:15:07,101 WARNING database DDL Query made to DB:
+ALTER TABLE `tabForm Tour Step` DROP INDEX `modified`
+2026-03-29 14:15:07,157 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWorkspace Custom Block` DROP INDEX `modified`
+2026-03-29 14:15:07,197 WARNING database DDL Query made to DB:
+ALTER TABLE `tabNote Seen By` DROP INDEX `modified`
+2026-03-29 14:15:07,247 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWorkspace Number Card` DROP INDEX `modified`
+2026-03-29 14:15:07,302 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmail Queue Recipient` DROP INDEX `modified`
+2026-03-29 14:15:07,342 WARNING database DDL Query made to DB:
+ALTER TABLE `tabHas Role` DROP INDEX `modified`
+2026-03-29 14:15:07,397 WARNING database DDL Query made to DB:
+ALTER TABLE `tabUser Social Login` DROP INDEX `modified`
+2026-03-29 14:15:07,449 WARNING database DDL Query made to DB:
+ALTER TABLE `tabHas Domain` DROP INDEX `modified`
+2026-03-29 14:15:07,489 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBlock Module` DROP INDEX `modified`
+2026-03-29 14:15:07,546 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWebhook Data` DROP INDEX `modified`
+2026-03-29 14:15:07,591 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCompany History` DROP INDEX `modified`
+2026-03-29 14:15:07,636 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAbout Us Team Member` DROP INDEX `modified`
+2026-03-29 14:15:07,692 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPortal Menu Item` DROP INDEX `modified`
+2026-03-29 14:15:07,732 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWebsite Sidebar Item` DROP INDEX `modified`
+2026-03-29 14:15:07,782 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWebsite Meta Tag` DROP INDEX `modified`
+2026-03-29 14:15:07,832 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLDAP Group Mapping` DROP INDEX `modified`
+2026-03-29 14:15:07,869 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWeb Page Block` DROP INDEX `modified`
+2026-03-29 14:15:07,921 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLogs To Clear` DROP INDEX `modified`
+2026-03-29 14:15:07,973 WARNING database DDL Query made to DB:
+ALTER TABLE `tabUser Email` DROP INDEX `modified`
+2026-03-29 14:15:08,018 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWorkspace Quick List` DROP INDEX `modified`
+2026-03-29 14:15:08,070 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWorkflow Action Permitted Role` DROP INDEX `modified`
+2026-03-29 14:15:08,121 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocType State` DROP INDEX `modified`
+2026-03-29 14:15:08,158 WARNING database DDL Query made to DB:
+ALTER TABLE `tabKanban Board Column` DROP INDEX `modified`
+2026-03-29 14:15:08,216 WARNING database DDL Query made to DB:
+ALTER TABLE `tabNewsletter Email Group` DROP INDEX `modified`
+2026-03-29 14:15:08,258 WARNING database DDL Query made to DB:
+ALTER TABLE `tabNewsletter Attachment` DROP INDEX `modified`
+2026-03-29 14:15:08,307 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIMAP Folder` DROP INDEX `modified`
+2026-03-29 14:15:08,363 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocType Link` DROP INDEX `modified`
+2026-03-29 14:15:08,405 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocType Layout Field` DROP INDEX `modified`
+2026-03-29 14:15:08,450 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPersonal Data Deletion Step` DROP INDEX `modified`
+2026-03-29 14:15:08,503 WARNING database DDL Query made to DB:
+ALTER TABLE `tabUser Group Member` DROP INDEX `modified`
+2026-03-29 14:15:08,541 WARNING database DDL Query made to DB:
+ALTER TABLE `tabUser Type Module` DROP INDEX `modified`
+2026-03-29 14:15:08,590 WARNING database DDL Query made to DB:
+ALTER TABLE `tabUser Select Document Type` DROP INDEX `modified`
+2026-03-29 14:15:08,638 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWorkspace Chart` DROP INDEX `modified`
+2026-03-29 14:15:08,674 WARNING database DDL Query made to DB:
+ALTER TABLE `tabQuery Parameters` DROP INDEX `modified`
+2026-03-29 14:15:08,726 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAuto Repeat Day` DROP INDEX `modified`
+2026-03-29 14:15:08,775 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWeb Template Field` DROP INDEX `modified`
+2026-03-29 14:15:08,813 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLog Setting User` DROP INDEX `modified`
+2026-03-29 14:15:08,869 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAssignment Rule User` DROP INDEX `modified`
+2026-03-29 14:15:08,910 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocType Action` DROP INDEX `modified`
+2026-03-29 14:15:08,957 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWebsite Theme Ignore App` DROP INDEX `modified`
+2026-03-29 14:15:09,005 WARNING database DDL Query made to DB:
+ALTER TABLE `tabWebsite Slideshow Item` DROP INDEX `modified`
+2026-03-29 14:15:09,047 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDocument Naming Rule Condition` DROP INDEX `modified`
+2026-03-29 14:15:09,092 WARNING database DDL Query made to DB:
+ALTER TABLE `tabReport Column` DROP INDEX `modified`
+2026-03-29 14:15:09,146 WARNING database DDL Query made to DB:
+ALTER TABLE `tabNotification Recipient` DROP INDEX `modified`
+2026-03-29 14:15:09,181 WARNING database DDL Query made to DB:
+ALTER TABLE `tabOAuth Scope` DROP INDEX `modified`
+2026-03-29 14:15:09,230 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSocial Link Settings` DROP INDEX `modified`
+2026-03-29 14:15:09,279 WARNING database DDL Query made to DB:
+ALTER TABLE `tabOnboarding Permission` DROP INDEX `modified`
+2026-03-29 14:15:09,319 WARNING database DDL Query made to DB:
+ALTER TABLE `tabOnboarding Step Map` DROP INDEX `modified`
+2026-03-29 14:15:09,368 WARNING database DDL Query made to DB:
+ALTER TABLE `tabNumber Card Link` DROP INDEX `modified`
+2026-03-29 14:15:09,418 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContact Phone` DROP INDEX `modified`
+2026-03-29 14:15:09,454 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDashboard Chart Link` DROP INDEX `modified`
+2026-03-29 14:15:09,507 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDashboard Chart Field` DROP INDEX `modified`
+2026-03-29 14:15:09,550 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDynamic Link` DROP INDEX `modified`
+2026-03-29 14:15:09,595 WARNING database DDL Query made to DB:
+ALTER TABLE `tabNotification Subscribed Document` DROP INDEX `modified`
+2026-03-29 14:15:09,651 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContact Email` DROP INDEX `modified`
+2026-03-29 14:15:09,690 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAssignment Rule Day` DROP INDEX `modified`
+2026-03-29 14:15:09,741 WARNING database DDL Query made to DB:
+ALTER TABLE `tabGlobal Search DocType` DROP INDEX `modified`
+2026-03-29 14:15:09,798 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSession Default` DROP INDEX `modified`
+2026-03-29 14:15:10,149 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCommunication` DROP INDEX `reference_doctype_reference_name_index`
+2026-03-29 14:25:11,917 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2026-03-29 14:32:58,727 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2026-03-29 14:49:17,683 WARNING database DDL Query made to DB:
+DROP DATABASE IF EXISTS `_a2049711c14f315a`
+2026-03-29 14:49:17,684 WARNING database DDL Query made to DB:
+DROP USER IF EXISTS '_a2049711c14f315a'@'%'
+2026-03-29 14:49:17,687 WARNING database DDL Query made to DB:
+DROP USER IF EXISTS '_a2049711c14f315a'@'localhost'

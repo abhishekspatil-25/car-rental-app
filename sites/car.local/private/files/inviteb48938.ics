@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:GMT+5:30
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20260325T173000
+DTEND;TZID=Asia/Kolkata:20260325T183000
+DTSTAMP:20260323T123826Z
+ORGANIZER;CN=H R:mailto:hr@indictranstech.com
+UID:59t4v2r0d5hqqrfd56vtgbtcnv@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=H R;X-NUM-GUESTS=0:mailto:hr@indictranstech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Abhishek Patil;X-NUM-GUESTS=0:mailto:abhishek.sp@indictranstech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=indictrans.com;X-NUM-GUESTS=0:mailto:indictrans.com@indictranstech.
+ com
+X-GOOGLE-CONFERENCE:https://meet.google.com/hyx-kczx-hkb
+X-MICROSOFT-CDO-OWNERAPPTID:-1535763822
+CREATED:20260323T123806Z
+DESCRIPTION:<p>Dear Team\,</p><p>You are invited to attend an HR session on
+  the <strong>Updated Leave Policy</strong>.</p><p><strong>Details of the Se
+ ssion:</strong><br>📅 <strong>Date:</strong> Wednesday\, 25th March<br>⏰ <s
+ trong>Time:</strong> 5:30 PM</p><p>This session will cover the recent updat
+ es and important guidelines related to the leave policy. All are requested 
+ to attend and make the most of this session.</p><p>Looking forward to your 
+ participation.</p>\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.goo
+ gle.com/hyx-kczx-hkb\n\nLearn more about Meet at: https://support.google.co
+ m/a/users/answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260323T123824Z
+LOCATION:https://meet.google.com/hyx-kczx-hkb
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:HR Session on Updated Leave Policy | 25th March @ 5:30pm 
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

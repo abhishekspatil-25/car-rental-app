@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:GMT+5:30
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20260508T150000
+DTEND;TZID=Asia/Kolkata:20260508T160000
+DTSTAMP:20260508T063654Z
+ORGANIZER;CN=Vaibhav Bondge:mailto:vaibhav.b@indictranstech.com
+UID:2fnta71a2bl035o31528365bs6@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Abhishek Patil;X-NUM-GUESTS=0:mailto:abhishek.sp@indictranstech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Rutuja Suryawanshi;X-NUM-GUESTS=0:mailto:rutuja.s@indictranstech.co
+ m
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Suryakant Kamble;X-NUM-GUESTS=0:mailto:suryakant.k@indictranstech.c
+ om
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Vaibhav Bondge;X-NUM-GUESTS=0:mailto:vaibhav.b@indictranstech.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/rmf-wmru-wie
+X-MICROSOFT-CDO-OWNERAPPTID:-1607224193
+CREATED:20260508T063554Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/rm
+ f-wmru-wie\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260508T063653Z
+LOCATION:https://meet.google.com/rmf-wmru-wie
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Meeting app demo
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

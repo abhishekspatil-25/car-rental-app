@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:GMT+5:30
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20260513T163000
+DTEND;TZID=Asia/Kolkata:20260513T173000
+DTSTAMP:20260511T071531Z
+ORGANIZER;CN=H R:mailto:hr@indictranstech.com
+UID:3201r8dg4o1188k9bne0fmio0n@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=H R;X-NUM-GUESTS=0:mailto:hr@indictranstech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Vaibhav Bondge;X-NUM-GUESTS=0:mailto:vaibhav.b@indictranstech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Abhishek Patil;X-NUM-GUESTS=0:mailto:abhishek.sp@indictranstech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Gupteshwar Joshi;X-NUM-GUESTS=0:mailto:gupteshwar@indictranstech.co
+ m
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Kanhaiya Kale;X-NUM-GUESTS=0:mailto:kanhaiya@indictranstech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Suryakant Kamble;X-NUM-GUESTS=0:mailto:suryakant.k@indictranstech.c
+ om
+X-GOOGLE-CONFERENCE:https://meet.google.com/sgs-frwa-pfe
+X-MICROSOFT-CDO-OWNERAPPTID:249523721
+CREATED:20260511T071522Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/sg
+ s-frwa-pfe\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260511T071530Z
+LOCATION:https://meet.google.com/sgs-frwa-pfe
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Technical Intern Growth & Progress Monthly Review |13th May  @ 4:30
+ pm to 5:30pm 
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

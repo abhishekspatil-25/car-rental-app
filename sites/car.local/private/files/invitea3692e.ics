@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:GMT+5:30
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20260413T100000
+DTEND;TZID=Asia/Kolkata:20260417T190000
+DTSTAMP:20260404T053903Z
+ORGANIZER;CN=H R:mailto:hr@indictranstech.com
+UID:5dl1i59trsksfpdooo701a9hif@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=H R;X-NUM-GUESTS=0:mailto:hr@indictranstech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Abhishek Patil;X-NUM-GUESTS=0:mailto:abhishek.sp@indictranstech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=indictrans.com;X-NUM-GUESTS=0:mailto:indictrans.com@indictranstech.
+ com
+X-GOOGLE-CONFERENCE:https://meet.google.com/bku-fdxb-ffk
+X-MICROSOFT-CDO-OWNERAPPTID:1794570913
+CREATED:20260404T053848Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/bk
+ u-fdxb-ffk\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260404T053901Z
+LOCATION:https://meet.google.com/bku-fdxb-ffk
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Collaboration Week | 13th April to 17th April 
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:GMT+5:30
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20260415T160000
+DTEND;TZID=Asia/Kolkata:20260415T173000
+DTSTAMP:20260408T073633Z
+ORGANIZER;CN=H R:mailto:hr@indictranstech.com
+UID:3juge2tashufhacmjg5s1p7tec@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=H R;X-NUM-GUESTS=0:mailto:hr@indictranstech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Abhishek Patil;X-NUM-GUESTS=0:mailto:abhishek.sp@indictranstech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=indictrans.com;X-NUM-GUESTS=0:mailto:indictrans.com@indictranstech.
+ com
+X-GOOGLE-CONFERENCE:https://meet.google.com/obz-ezvv-fzh
+X-MICROSOFT-CDO-OWNERAPPTID:1916240227
+CREATED:20260408T073623Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/ob
+ z-ezvv-fzh\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260408T073629Z
+LOCATION:https://meet.google.com/obz-ezvv-fzh
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Session 3: “Mastering ERPNext Implementation: Process\, Stages & Si
+ gn-offs”by Mr. Manojkumar Zaparde | 15th April @4:00 pm 
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

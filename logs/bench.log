@@ -1,0 +1,554 @@
+2026-03-29 12:49:53,768 DEBUG cd frappe-bench && uv venv env --seed --python /usr/bin/python3.10
+2026-03-29 12:49:55,006 LOG Getting frappe
+2026-03-29 12:49:55,007 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2026-03-29 12:50:00,336 LOG Installing frappe
+2026-03-29 12:50:00,337 DEBUG cd /home/abhishek/car_project/frappe-bench && uv pip install --quiet --upgrade -e /home/abhishek/car_project/frappe-bench/apps/frappe  --python /home/abhishek/car_project/frappe-bench/env/bin/python
+2026-03-29 12:50:17,229 DEBUG cd /home/abhishek/car_project/frappe-bench/apps/frappe && yarn install --check-files
+2026-03-29 12:50:36,711 DEBUG cd frappe-bench && bench build
+2026-03-29 12:50:36,802 INFO /home/abhishek/.local/bin/bench build
+2026-03-29 12:50:49,637 LOG setting up backups
+2026-03-29 12:50:49,662 LOG backups were set up
+2026-03-29 12:50:49,663 INFO Bench frappe-bench initialized
+2026-03-29 12:51:21,908 INFO /home/abhishek/.local/bin/bench new-site car.local
+2026-03-29 12:51:52,371 INFO /home/abhishek/.local/bin/bench new-site car.local
+2026-03-29 12:55:43,603 INFO /home/abhishek/.local/bin/bench new-site car.local
+2026-03-29 12:57:49,938 INFO /home/abhishek/.local/bin/bench start
+2026-03-29 12:57:50,164 INFO /home/abhishek/.local/bin/bench schedule
+2026-03-29 12:57:50,166 INFO /home/abhishek/.local/bin/bench watch
+2026-03-29 12:57:50,173 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-03-29 12:57:50,205 INFO /home/abhishek/.local/bin/bench worker
+2026-03-29 13:00:18,029 INFO /home/abhishek/.local/bin/bench start
+2026-03-29 13:03:02,775 INFO /home/abhishek/.local/bin/bench start
+2026-03-29 13:03:02,962 INFO /home/abhishek/.local/bin/bench worker
+2026-03-29 13:03:03,004 INFO /home/abhishek/.local/bin/bench watch
+2026-03-29 13:03:03,007 INFO /home/abhishek/.local/bin/bench schedule
+2026-03-29 13:03:03,016 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-03-29 13:06:53,522 INFO /home/abhishek/.local/bin/bench start
+2026-03-29 13:06:53,756 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-03-29 13:06:53,762 INFO /home/abhishek/.local/bin/bench schedule
+2026-03-29 13:06:53,762 INFO /home/abhishek/.local/bin/bench watch
+2026-03-29 13:06:53,764 INFO /home/abhishek/.local/bin/bench worker
+2026-03-29 13:15:39,944 INFO /home/abhishek/.local/bin/bench start
+2026-03-29 13:15:40,139 INFO /home/abhishek/.local/bin/bench worker
+2026-03-29 13:15:40,157 INFO /home/abhishek/.local/bin/bench schedule
+2026-03-29 13:15:40,191 INFO /home/abhishek/.local/bin/bench watch
+2026-03-29 13:15:40,203 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-03-29 13:21:16,012 INFO /home/abhishek/.local/bin/bench use car.local
+2026-03-29 13:21:41,677 INFO /home/abhishek/.local/bin/bench start
+2026-03-29 13:21:41,877 INFO /home/abhishek/.local/bin/bench worker
+2026-03-29 13:21:41,881 INFO /home/abhishek/.local/bin/bench watch
+2026-03-29 13:21:41,885 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-03-29 13:21:41,918 INFO /home/abhishek/.local/bin/bench schedule
+2026-03-29 13:37:47,418 INFO /home/abhishek/.local/bin/bench version
+2026-03-29 13:41:44,287 INFO /home/abhishek/.local/bin/bench version
+2026-03-29 14:07:25,497 INFO /home/abhishek/.local/bin/bench get-app frappe --branch version-15
+2026-03-29 14:07:26,091 LOG Getting frappe
+2026-03-29 14:07:26,091 DEBUG cd ./apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2026-03-29 14:07:57,888 LOG Installing frappe
+2026-03-29 14:07:57,889 DEBUG cd /home/abhishek/car_project/frappe-bench && uv pip install --quiet --upgrade -e /home/abhishek/car_project/frappe-bench/apps/frappe  --python /home/abhishek/car_project/frappe-bench/env/bin/python
+2026-03-29 14:08:03,859 DEBUG cd /home/abhishek/car_project/frappe-bench/apps/frappe && yarn install --check-files
+2026-03-29 14:08:10,832 DEBUG bench build --app frappe
+2026-03-29 14:08:10,911 INFO /home/abhishek/.local/bin/bench build --app frappe
+2026-03-29 14:12:24,319 INFO /home/abhishek/.local/bin/bench setup requirements
+2026-03-29 14:12:24,323 DEBUG uv pip install --quiet --upgrade pip --python /home/abhishek/car_project/frappe-bench/env/bin/python
+2026-03-29 14:12:24,475 LOG Installing frappe
+2026-03-29 14:12:24,478 DEBUG cd /home/abhishek/car_project/frappe-bench && uv pip install --quiet --upgrade -e /home/abhishek/car_project/frappe-bench/apps/frappe  --python /home/abhishek/car_project/frappe-bench/env/bin/python
+2026-03-29 14:12:25,935 DEBUG cd /home/abhishek/car_project/frappe-bench/apps/frappe && yarn install --check-files
+2026-03-29 14:12:37,236 INFO /home/abhishek/.local/bin/bench version
+2026-03-29 14:14:03,794 INFO /home/abhishek/.local/bin/bench use car.local
+2026-03-29 14:14:08,891 INFO /home/abhishek/.local/bin/bench version
+2026-03-29 14:14:46,115 INFO /home/abhishek/.local/bin/bench --site car.local migrate
+2026-03-29 14:15:26,786 INFO /home/abhishek/.local/bin/bench restart
+2026-03-29 14:15:33,291 INFO /home/abhishek/.local/bin/bench start
+2026-03-29 14:15:56,082 INFO /home/abhishek/.local/bin/bench start
+2026-03-29 14:18:28,674 INFO /home/abhishek/.local/bin/bench start
+2026-03-29 14:18:28,830 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-03-29 14:18:28,830 INFO /home/abhishek/.local/bin/bench schedule
+2026-03-29 14:18:28,878 INFO /home/abhishek/.local/bin/bench worker
+2026-03-29 14:18:28,878 INFO /home/abhishek/.local/bin/bench watch
+2026-03-29 14:21:26,146 INFO /home/abhishek/.local/bin/bench --site car.local migrate
+2026-03-29 14:22:58,695 INFO /home/abhishek/.local/bin/bench start
+2026-03-29 14:22:58,854 INFO /home/abhishek/.local/bin/bench worker
+2026-03-29 14:22:58,893 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-03-29 14:22:58,893 INFO /home/abhishek/.local/bin/bench watch
+2026-03-29 14:22:58,894 INFO /home/abhishek/.local/bin/bench schedule
+2026-03-29 14:24:24,694 INFO /home/abhishek/.local/bin/bench start
+2026-03-29 14:24:24,843 INFO /home/abhishek/.local/bin/bench watch
+2026-03-29 14:24:24,880 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-03-29 14:24:24,885 INFO /home/abhishek/.local/bin/bench schedule
+2026-03-29 14:24:24,889 INFO /home/abhishek/.local/bin/bench worker
+2026-03-29 14:25:11,440 INFO /home/abhishek/.local/bin/bench --site car.local migrate
+2026-03-29 14:25:24,738 INFO /home/abhishek/.local/bin/bench --site car.local clear-cache
+2026-03-29 14:25:38,763 INFO /home/abhishek/.local/bin/bench build
+2026-03-29 14:27:12,386 INFO /home/abhishek/.local/bin/bench --site car.local clear-cache
+2026-03-29 14:27:17,180 INFO /home/abhishek/.local/bin/bench start
+2026-03-29 14:27:17,332 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-03-29 14:27:17,333 INFO /home/abhishek/.local/bin/bench schedule
+2026-03-29 14:27:17,366 INFO /home/abhishek/.local/bin/bench worker
+2026-03-29 14:27:17,377 INFO /home/abhishek/.local/bin/bench watch
+2026-03-29 14:30:46,585 INFO /home/abhishek/.local/bin/bench --site car.local set-config setup_complete 1
+2026-03-29 14:30:56,427 INFO /home/abhishek/.local/bin/bench --site car.local migrate
+2026-03-29 14:31:48,487 INFO /home/abhishek/.local/bin/bench start
+2026-03-29 14:31:48,643 INFO /home/abhishek/.local/bin/bench watch
+2026-03-29 14:31:48,643 INFO /home/abhishek/.local/bin/bench schedule
+2026-03-29 14:31:48,682 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-03-29 14:31:48,684 INFO /home/abhishek/.local/bin/bench worker
+2026-03-29 14:32:58,125 INFO /home/abhishek/.local/bin/bench --site car.local migrate
+2026-03-29 14:33:39,721 INFO /home/abhishek/.local/bin/bench --site car.local clear-cache
+2026-03-29 14:33:40,422 INFO /home/abhishek/.local/bin/bench build
+2026-03-29 14:35:17,655 INFO /home/abhishek/.local/bin/bench --site car.local set-config setup_complete 1
+2026-03-29 14:35:17,977 INFO /home/abhishek/.local/bin/bench --site car.local clear-cache
+2026-03-29 14:37:34,479 INFO /home/abhishek/.local/bin/bench --site car.local clear-cache
+2026-03-29 14:37:35,150 INFO /home/abhishek/.local/bin/bench --site car.local clear-website-cache
+2026-03-29 14:37:35,826 INFO /home/abhishek/.local/bin/bench build --force
+2026-03-29 14:38:55,846 INFO /home/abhishek/.local/bin/bench drop-site car.local
+2026-03-29 14:42:31,329 INFO /home/abhishek/.local/bin/bench drop-site car.local
+2026-03-29 14:47:28,799 INFO /home/abhishek/.local/bin/bench drop-site car.local
+2026-03-29 14:49:04,652 INFO /home/abhishek/.local/bin/bench drop-site car.local --force
+2026-03-29 14:50:02,344 INFO /home/abhishek/.local/bin/bench new-site car.local
+2026-03-29 14:51:56,109 INFO /home/abhishek/.local/bin/bench use car.local
+2026-03-29 14:51:56,412 INFO /home/abhishek/.local/bin/bench start
+2026-03-29 14:51:56,567 INFO /home/abhishek/.local/bin/bench schedule
+2026-03-29 14:51:56,576 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-03-29 14:51:56,605 INFO /home/abhishek/.local/bin/bench watch
+2026-03-29 14:51:56,607 INFO /home/abhishek/.local/bin/bench worker
+2026-03-29 15:03:11,096 INFO /home/abhishek/.local/bin/bench new-app car_rental_app
+2026-03-29 15:03:11,098 LOG creating new app car_rental_app
+2026-03-29 15:05:41,680 LOG Installing car_rental_app
+2026-03-29 15:05:41,681 DEBUG cd /home/abhishek/car_project/frappe-bench && uv pip install --quiet --upgrade -e /home/abhishek/car_project/frappe-bench/apps/car_rental_app  --python /home/abhishek/car_project/frappe-bench/env/bin/python
+2026-03-29 15:05:42,015 DEBUG bench build --app car_rental_app
+2026-03-29 15:05:42,091 INFO /home/abhishek/.local/bin/bench build --app car_rental_app
+2026-03-29 15:06:24,546 INFO /home/abhishek/.local/bin/bench --site car.local install-app car_rental_app
+2026-03-29 15:08:57,201 INFO /home/abhishek/.local/bin/bench start
+2026-03-29 15:08:57,354 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-03-29 15:08:57,401 INFO /home/abhishek/.local/bin/bench watch
+2026-03-29 15:08:57,401 INFO /home/abhishek/.local/bin/bench schedule
+2026-03-29 15:08:57,404 INFO /home/abhishek/.local/bin/bench worker
+2026-03-29 16:58:33,056 INFO /home/abhishek/.local/bin/bench restart
+2026-03-29 16:58:51,703 INFO /home/abhishek/.local/bin/bench --site car.local migrate
+2026-03-29 16:59:28,467 INFO /home/abhishek/.local/bin/bench start
+2026-03-29 16:59:28,647 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-03-29 16:59:28,698 INFO /home/abhishek/.local/bin/bench watch
+2026-03-29 16:59:28,707 INFO /home/abhishek/.local/bin/bench worker
+2026-03-29 16:59:28,708 INFO /home/abhishek/.local/bin/bench schedule
+2026-03-29 17:00:28,684 INFO /home/abhishek/.local/bin/bench --site car.local migrate
+2026-03-29 17:04:05,612 INFO /home/abhishek/.local/bin/bench --site car.local export-doc DocType Booking
+2026-03-29 17:04:37,922 INFO /home/abhishek/.local/bin/bench --site car.local export-doc DocType Car
+2026-03-29 17:04:49,827 INFO /home/abhishek/.local/bin/bench --site car.local export-doc DocType Customer
+2026-03-30 09:45:09,995 INFO /home/abhishek/.local/bin/bench start
+2026-03-30 09:45:10,218 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-03-30 09:45:10,230 INFO /home/abhishek/.local/bin/bench watch
+2026-03-30 09:45:10,257 INFO /home/abhishek/.local/bin/bench schedule
+2026-03-30 09:45:10,265 INFO /home/abhishek/.local/bin/bench worker
+2026-03-30 09:57:50,883 INFO /home/abhishek/.local/bin/bench --site car.local export-doc DocType Booking
+2026-03-30 10:37:15,645 INFO /home/abhishek/.local/bin/bench restart
+2026-03-30 10:37:46,267 INFO /home/abhishek/.local/bin/bench clear-cache
+2026-03-30 10:38:05,981 INFO /home/abhishek/.local/bin/bench restart
+2026-03-30 10:38:20,181 INFO /home/abhishek/.local/bin/bench clear-cache
+2026-03-30 10:39:30,706 INFO /home/abhishek/.local/bin/bench start
+2026-03-30 10:39:30,903 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-03-30 10:39:30,927 INFO /home/abhishek/.local/bin/bench watch
+2026-03-30 10:39:30,938 INFO /home/abhishek/.local/bin/bench schedule
+2026-03-30 10:39:30,940 INFO /home/abhishek/.local/bin/bench worker
+2026-03-30 11:10:10,553 INFO /home/abhishek/.local/bin/bench clear-cache
+2026-03-30 11:40:34,747 INFO /home/abhishek/.local/bin/bench restart
+2026-03-30 12:00:01,788 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-03-30 18:00:01,726 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-03-31 10:16:27,219 INFO /home/abhishek/.local/bin/bench start
+2026-03-31 10:16:27,472 INFO /home/abhishek/.local/bin/bench worker
+2026-03-31 10:16:27,476 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-03-31 10:16:27,483 INFO /home/abhishek/.local/bin/bench watch
+2026-03-31 10:16:27,488 INFO /home/abhishek/.local/bin/bench schedule
+2026-03-31 12:00:47,100 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-03-31 15:54:56,214 INFO /home/abhishek/.local/bin/bench migrate
+2026-03-31 15:56:30,069 INFO /home/abhishek/.local/bin/bench migrate
+2026-03-31 16:02:28,922 INFO /home/abhishek/.local/bin/bench start
+2026-03-31 16:02:29,131 INFO /home/abhishek/.local/bin/bench watch
+2026-03-31 16:02:29,144 INFO /home/abhishek/.local/bin/bench worker
+2026-03-31 16:02:29,183 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-03-31 16:02:29,185 INFO /home/abhishek/.local/bin/bench schedule
+2026-03-31 16:02:40,948 INFO /home/abhishek/.local/bin/bench migrate
+2026-03-31 16:10:40,203 INFO /home/abhishek/.local/bin/bench build
+2026-03-31 16:11:15,799 INFO /home/abhishek/.local/bin/bench restart
+2026-03-31 16:51:41,212 INFO /home/abhishek/.local/bin/bench migrate
+2026-03-31 16:51:48,353 INFO /home/abhishek/.local/bin/bench build
+2026-03-31 17:33:28,583 INFO /home/abhishek/.local/bin/bench build
+2026-03-31 17:33:55,280 INFO /home/abhishek/.local/bin/bench restart
+2026-03-31 18:00:01,658 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-01 09:44:57,438 INFO /home/abhishek/.local/bin/bench start
+2026-04-01 09:44:57,624 INFO /home/abhishek/.local/bin/bench worker
+2026-04-01 09:44:57,634 INFO /home/abhishek/.local/bin/bench watch
+2026-04-01 09:44:57,634 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-01 09:44:57,664 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-01 12:00:01,233 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-01 15:08:50,939 INFO /home/abhishek/.local/bin/bench start
+2026-04-01 15:08:51,217 INFO /home/abhishek/.local/bin/bench watch
+2026-04-01 15:08:51,219 INFO /home/abhishek/.local/bin/bench worker
+2026-04-01 15:08:51,224 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-01 15:08:51,230 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-01 15:25:22,318 INFO /home/abhishek/.local/bin/bench restart
+2026-04-01 16:02:12,950 INFO /home/abhishek/.local/bin/bench restart
+2026-04-01 17:33:16,063 INFO /home/abhishek/.local/bin/bench restart
+2026-04-01 17:39:23,933 INFO /home/abhishek/.local/bin/bench start
+2026-04-01 17:39:43,787 INFO /home/abhishek/.local/bin/bench restart
+2026-04-01 18:00:01,156 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-02 12:00:01,631 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-02 17:57:24,017 INFO /home/abhishek/.local/bin/bench start
+2026-04-02 17:57:24,280 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-02 17:57:24,281 INFO /home/abhishek/.local/bin/bench watch
+2026-04-02 17:57:24,328 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-02 17:57:24,335 INFO /home/abhishek/.local/bin/bench worker
+2026-04-02 18:00:01,845 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-02 18:11:54,275 INFO /home/abhishek/.local/bin/bench start
+2026-04-02 18:11:54,461 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-02 18:11:54,475 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-02 18:11:54,526 INFO /home/abhishek/.local/bin/bench worker
+2026-04-02 18:11:54,537 INFO /home/abhishek/.local/bin/bench watch
+2026-04-03 12:00:01,454 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-03 18:00:01,475 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-06 11:21:32,022 INFO /home/abhishek/.local/bin/bench start
+2026-04-06 11:21:32,285 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-06 11:21:32,312 INFO /home/abhishek/.local/bin/bench worker
+2026-04-06 11:21:32,316 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-06 11:21:32,318 INFO /home/abhishek/.local/bin/bench watch
+2026-04-06 12:37:03,359 INFO /home/abhishek/.local/bin/bench clear-cache
+2026-04-06 12:37:14,147 INFO /home/abhishek/.local/bin/bench restart
+2026-04-06 12:39:10,451 INFO /home/abhishek/.local/bin/bench start
+2026-04-06 12:39:10,658 INFO /home/abhishek/.local/bin/bench watch
+2026-04-06 12:39:10,662 INFO /home/abhishek/.local/bin/bench worker
+2026-04-06 12:39:10,666 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-06 12:39:10,727 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-06 12:59:29,581 INFO /home/abhishek/.local/bin/bench clear-cache
+2026-04-06 12:59:37,098 INFO /home/abhishek/.local/bin/bench restart
+2026-04-06 13:13:16,186 INFO /home/abhishek/.local/bin/bench clear-cache
+2026-04-06 13:13:22,713 INFO /home/abhishek/.local/bin/bench restart
+2026-04-06 14:26:00,337 INFO /home/abhishek/.local/bin/bench restart
+2026-04-06 14:26:09,286 INFO /home/abhishek/.local/bin/bench clear-cache
+2026-04-06 14:26:15,430 INFO /home/abhishek/.local/bin/bench restart
+2026-04-06 15:20:24,477 INFO /home/abhishek/.local/bin/bench clear-cache
+2026-04-06 15:20:33,936 INFO /home/abhishek/.local/bin/bench restart
+2026-04-06 16:02:27,185 INFO /home/abhishek/.local/bin/bench clear-cache
+2026-04-06 16:02:31,547 INFO /home/abhishek/.local/bin/bench start
+2026-04-06 16:02:41,469 INFO /home/abhishek/.local/bin/bench restart
+2026-04-06 16:04:24,354 INFO /home/abhishek/.local/bin/bench clear-cache
+2026-04-06 16:04:31,930 INFO /home/abhishek/.local/bin/bench restart
+2026-04-06 16:05:18,855 INFO /home/abhishek/.local/bin/bench start
+2026-04-06 16:05:19,010 INFO /home/abhishek/.local/bin/bench watch
+2026-04-06 16:05:19,011 INFO /home/abhishek/.local/bin/bench worker
+2026-04-06 16:05:19,049 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-06 16:05:19,053 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-06 16:19:39,287 INFO /home/abhishek/.local/bin/bench clear-cache
+2026-04-06 16:19:44,784 INFO /home/abhishek/.local/bin/bench remove
+2026-04-06 16:19:44,788 WARNING /home/abhishek/.local/bin/bench remove executed with exit code 2
+2026-04-06 16:20:05,915 INFO /home/abhishek/.local/bin/bench restart
+2026-04-06 18:00:01,332 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-07 09:20:17,480 INFO /home/abhishek/.local/bin/bench start
+2026-04-07 09:20:17,675 INFO /home/abhishek/.local/bin/bench watch
+2026-04-07 09:20:17,676 INFO /home/abhishek/.local/bin/bench worker
+2026-04-07 09:20:17,709 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-07 09:20:17,724 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-07 12:38:58,459 INFO /home/abhishek/.local/bin/bench start
+2026-04-07 12:38:58,612 INFO /home/abhishek/.local/bin/bench worker
+2026-04-07 12:38:58,638 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-07 12:38:58,640 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-07 12:38:58,651 INFO /home/abhishek/.local/bin/bench watch
+2026-04-07 14:45:15,704 INFO /home/abhishek/.local/bin/bench start
+2026-04-07 14:45:15,873 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-07 14:45:15,878 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-07 14:45:15,915 INFO /home/abhishek/.local/bin/bench worker
+2026-04-07 14:45:15,925 INFO /home/abhishek/.local/bin/bench watch
+2026-04-07 18:00:01,687 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-08 10:07:12,373 INFO /home/abhishek/.local/bin/bench start
+2026-04-08 10:07:12,573 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-08 10:07:12,577 INFO /home/abhishek/.local/bin/bench watch
+2026-04-08 10:07:12,610 INFO /home/abhishek/.local/bin/bench worker
+2026-04-08 10:07:12,616 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-08 10:58:55,373 INFO /home/abhishek/.local/bin/bench start
+2026-04-08 10:58:55,585 INFO /home/abhishek/.local/bin/bench worker
+2026-04-08 10:58:55,586 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-08 10:58:55,638 INFO /home/abhishek/.local/bin/bench watch
+2026-04-08 10:58:55,652 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-08 13:03:05,353 INFO /home/abhishek/.local/bin/bench migrate
+2026-04-08 13:03:31,654 INFO /home/abhishek/.local/bin/bench clear-cache
+2026-04-08 13:03:40,470 INFO /home/abhishek/.local/bin/bench build
+2026-04-08 13:04:05,134 INFO /home/abhishek/.local/bin/bench restart
+2026-04-08 13:05:03,807 INFO /home/abhishek/.local/bin/bench start
+2026-04-08 13:05:03,955 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-08 13:05:03,957 INFO /home/abhishek/.local/bin/bench watch
+2026-04-08 13:05:03,960 INFO /home/abhishek/.local/bin/bench worker
+2026-04-08 13:05:04,008 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-08 18:00:01,564 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-09 10:50:49,657 INFO /home/abhishek/.local/bin/bench start
+2026-04-09 10:50:49,856 INFO /home/abhishek/.local/bin/bench worker
+2026-04-09 10:50:49,856 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-09 10:50:49,875 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-09 10:50:49,879 INFO /home/abhishek/.local/bin/bench watch
+2026-04-09 14:33:18,632 INFO /home/abhishek/.local/bin/bench --site car.local mysql
+2026-04-09 18:00:01,223 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-10 11:12:02,444 INFO /home/abhishek/.local/bin/bench start
+2026-04-10 11:12:02,629 INFO /home/abhishek/.local/bin/bench watch
+2026-04-10 11:12:02,643 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-10 11:12:02,667 INFO /home/abhishek/.local/bin/bench worker
+2026-04-10 11:12:02,667 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-10 12:00:02,054 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-10 18:00:01,477 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-13 10:19:47,809 INFO /home/abhishek/.local/bin/bench start
+2026-04-13 10:19:48,001 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-13 10:19:48,009 INFO /home/abhishek/.local/bin/bench watch
+2026-04-13 10:19:48,029 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-13 10:19:48,032 INFO /home/abhishek/.local/bin/bench worker
+2026-04-13 18:00:01,967 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-14 10:49:28,095 INFO /home/abhishek/.local/bin/bench start
+2026-04-14 10:49:28,281 INFO /home/abhishek/.local/bin/bench watch
+2026-04-14 10:49:28,294 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-14 10:49:28,295 INFO /home/abhishek/.local/bin/bench worker
+2026-04-14 10:49:28,322 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-15 10:20:53,750 INFO /home/abhishek/.local/bin/bench start
+2026-04-15 10:20:53,987 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-15 10:20:54,011 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-15 10:20:54,031 INFO /home/abhishek/.local/bin/bench worker
+2026-04-15 10:20:54,041 INFO /home/abhishek/.local/bin/bench watch
+2026-04-15 12:00:01,233 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-16 12:00:01,927 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-20 12:00:01,445 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-20 14:40:55,555 INFO /home/abhishek/.local/bin/bench start
+2026-04-20 14:40:55,773 INFO /home/abhishek/.local/bin/bench watch
+2026-04-20 14:40:55,785 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-20 14:40:55,831 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-20 14:40:55,833 INFO /home/abhishek/.local/bin/bench worker
+2026-04-20 18:00:01,273 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-21 09:44:29,539 INFO /home/abhishek/.local/bin/bench start
+2026-04-21 09:44:29,785 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-21 09:44:29,839 INFO /home/abhishek/.local/bin/bench worker
+2026-04-21 09:44:29,839 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-21 09:44:29,843 INFO /home/abhishek/.local/bin/bench watch
+2026-04-21 10:00:44,146 INFO /home/abhishek/.local/bin/bench start
+2026-04-21 10:00:44,367 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-21 10:00:44,374 INFO /home/abhishek/.local/bin/bench watch
+2026-04-21 10:00:44,381 INFO /home/abhishek/.local/bin/bench worker
+2026-04-21 10:00:44,381 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-21 10:03:00,084 INFO /home/abhishek/.local/bin/bench start
+2026-04-21 10:03:00,248 INFO /home/abhishek/.local/bin/bench watch
+2026-04-21 10:03:00,275 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-21 10:03:00,276 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-21 10:03:00,299 INFO /home/abhishek/.local/bin/bench worker
+2026-04-21 12:00:01,743 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-21 14:15:41,415 INFO /home/abhishek/.local/bin/bench start
+2026-04-21 14:15:41,616 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-21 14:15:41,621 INFO /home/abhishek/.local/bin/bench watch
+2026-04-21 14:15:41,623 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-21 14:15:41,626 INFO /home/abhishek/.local/bin/bench worker
+2026-04-21 18:00:02,026 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-24 11:40:28,511 INFO /home/abhishek/.local/bin/bench start
+2026-04-24 11:40:28,725 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-24 11:40:28,735 INFO /home/abhishek/.local/bin/bench worker
+2026-04-24 11:40:28,739 INFO /home/abhishek/.local/bin/bench watch
+2026-04-24 11:40:28,743 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-24 12:00:01,536 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-29 15:18:39,421 INFO /home/abhishek/.local/bin/bench start
+2026-04-29 15:18:39,593 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-29 15:18:39,596 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-29 15:18:39,600 INFO /home/abhishek/.local/bin/bench worker
+2026-04-29 15:18:39,612 INFO /home/abhishek/.local/bin/bench watch
+2026-04-29 10:08:25,734 INFO /home/abhishek/.local/bin/bench restart
+2026-04-29 10:12:17,014 INFO /home/abhishek/.local/bin/bench start
+2026-04-29 10:12:17,163 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-29 10:12:17,170 INFO /home/abhishek/.local/bin/bench worker
+2026-04-29 10:12:17,197 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-29 10:12:17,208 INFO /home/abhishek/.local/bin/bench watch
+2026-04-29 11:11:39,207 INFO /home/abhishek/.local/bin/bench start
+2026-04-29 11:11:39,351 INFO /home/abhishek/.local/bin/bench watch
+2026-04-29 11:11:39,352 INFO /home/abhishek/.local/bin/bench worker
+2026-04-29 11:11:39,355 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-29 11:11:39,403 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-29 11:54:56,774 INFO /home/abhishek/.local/bin/bench restart
+2026-04-29 11:55:57,668 INFO /home/abhishek/.local/bin/bench start
+2026-04-29 11:55:57,867 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-29 11:55:57,869 INFO /home/abhishek/.local/bin/bench worker
+2026-04-29 11:55:57,909 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-29 11:55:57,923 INFO /home/abhishek/.local/bin/bench watch
+2026-04-29 12:00:02,113 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-29 18:00:01,771 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-29 18:04:20,967 INFO /home/abhishek/.local/bin/bench restart
+2026-04-29 18:04:48,240 INFO /home/abhishek/.local/bin/bench start
+2026-04-29 18:04:48,445 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-29 18:04:48,447 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-29 18:04:48,455 INFO /home/abhishek/.local/bin/bench watch
+2026-04-29 18:04:48,511 INFO /home/abhishek/.local/bin/bench worker
+2026-04-29 18:24:38,134 INFO /home/abhishek/.local/bin/bench start
+2026-04-29 18:24:38,357 INFO /home/abhishek/.local/bin/bench worker
+2026-04-29 18:24:38,386 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-29 18:24:38,395 INFO /home/abhishek/.local/bin/bench watch
+2026-04-29 18:24:38,406 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-29 18:30:17,784 INFO /home/abhishek/.local/bin/bench restart
+2026-04-29 18:31:18,367 INFO /home/abhishek/.local/bin/bench restart
+2026-04-30 10:31:30,561 INFO /home/abhishek/.local/bin/bench start
+2026-04-30 10:31:30,703 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-30 10:31:30,709 INFO /home/abhishek/.local/bin/bench watch
+2026-04-30 10:31:30,740 INFO /home/abhishek/.local/bin/bench worker
+2026-04-30 10:31:30,750 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-30 10:49:13,151 INFO /home/abhishek/.local/bin/bench restart
+2026-04-30 10:51:26,904 INFO /home/abhishek/.local/bin/bench start
+2026-04-30 10:51:27,065 INFO /home/abhishek/.local/bin/bench watch
+2026-04-30 10:51:27,092 INFO /home/abhishek/.local/bin/bench worker
+2026-04-30 10:51:27,101 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-30 10:51:27,107 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-30 12:00:01,424 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-30 14:47:26,812 INFO /home/abhishek/.local/bin/bench start
+2026-04-30 14:47:27,039 INFO /home/abhishek/.local/bin/bench watch
+2026-04-30 14:47:27,050 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-30 14:47:27,058 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-30 14:47:27,061 INFO /home/abhishek/.local/bin/bench worker
+2026-04-30 18:00:01,797 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-04-30 18:03:58,285 INFO /home/abhishek/.local/bin/bench start
+2026-04-30 18:03:58,470 INFO /home/abhishek/.local/bin/bench watch
+2026-04-30 18:03:58,472 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-04-30 18:03:58,533 INFO /home/abhishek/.local/bin/bench schedule
+2026-04-30 18:03:58,533 INFO /home/abhishek/.local/bin/bench worker
+2026-05-02 12:00:01,672 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-04 09:56:57,440 INFO /home/abhishek/.local/bin/bench start
+2026-05-04 09:56:57,645 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-04 09:56:57,646 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-04 09:56:57,649 INFO /home/abhishek/.local/bin/bench worker
+2026-05-04 09:56:57,651 INFO /home/abhishek/.local/bin/bench watch
+2026-05-04 12:00:01,965 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-04 16:12:05,446 INFO /home/abhishek/.local/bin/bench --site car.local migrate
+2026-05-04 16:15:49,717 INFO /home/abhishek/.local/bin/bench --site car.local migrate
+2026-05-04 16:15:51,784 INFO /home/abhishek/.local/bin/bench restart
+2026-05-04 16:16:08,122 INFO /home/abhishek/.local/bin/bench restart
+2026-05-04 16:35:09,687 INFO /home/abhishek/.local/bin/bench restert
+2026-05-04 16:35:16,300 INFO /home/abhishek/.local/bin/bench restart
+2026-05-04 17:48:53,745 INFO /home/abhishek/.local/bin/bench --site car.local migrate
+2026-05-04 17:49:01,922 INFO /home/abhishek/.local/bin/bench restart
+2026-05-04 18:00:02,109 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-05 10:53:46,162 INFO /home/abhishek/.local/bin/bench start
+2026-05-05 10:53:46,360 INFO /home/abhishek/.local/bin/bench worker
+2026-05-05 10:53:46,362 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-05 10:53:46,365 INFO /home/abhishek/.local/bin/bench watch
+2026-05-05 10:53:46,393 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-05 12:00:01,808 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-05 16:40:02,869 INFO /home/abhishek/.local/bin/bench set-config -g developer_mode true.
+2026-05-05 17:28:42,913 INFO /home/abhishek/.local/bin/bench get-config developer_mode
+2026-05-05 17:33:57,558 INFO /home/abhishek/.local/bin/bench set-config -g developer_mode 1
+2026-05-05 17:34:15,353 INFO /home/abhishek/.local/bin/bench clear-cache
+2026-05-05 17:58:53,131 INFO /home/abhishek/.local/bin/bench --site car.local migrate
+2026-05-05 18:00:01,803 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-05 18:00:17,408 INFO /home/abhishek/.local/bin/bench restart
+2026-05-06 09:35:05,519 INFO /home/abhishek/.local/bin/bench start
+2026-05-06 09:35:05,764 INFO /home/abhishek/.local/bin/bench worker
+2026-05-06 09:35:05,767 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-06 09:35:05,778 INFO /home/abhishek/.local/bin/bench watch
+2026-05-06 09:35:05,811 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-06 12:00:01,459 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-06 18:00:01,789 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-06 18:39:55,630 INFO /home/abhishek/.local/bin/bench start
+2026-05-06 18:39:55,803 INFO /home/abhishek/.local/bin/bench watch
+2026-05-06 18:39:55,819 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-06 18:39:55,831 INFO /home/abhishek/.local/bin/bench worker
+2026-05-06 18:39:55,853 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-07 10:19:12,087 INFO /home/abhishek/.local/bin/bench start
+2026-05-07 10:19:12,289 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-07 10:19:12,290 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-07 10:19:12,343 INFO /home/abhishek/.local/bin/bench worker
+2026-05-07 10:19:12,353 INFO /home/abhishek/.local/bin/bench watch
+2026-05-07 12:00:02,028 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-07 14:58:05,607 INFO /home/abhishek/.local/bin/bench start
+2026-05-07 14:58:05,770 INFO /home/abhishek/.local/bin/bench worker
+2026-05-07 14:58:05,771 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-07 14:58:05,812 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-07 14:58:05,813 INFO /home/abhishek/.local/bin/bench watch
+2026-05-07 16:18:19,697 INFO /home/abhishek/.local/bin/bench start
+2026-05-07 16:18:19,891 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-07 16:18:19,901 INFO /home/abhishek/.local/bin/bench watch
+2026-05-07 16:18:19,908 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-07 16:18:19,922 INFO /home/abhishek/.local/bin/bench worker
+2026-05-07 18:00:01,421 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-08 09:37:16,398 INFO /home/abhishek/.local/bin/bench start
+2026-05-08 09:37:16,556 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-08 09:37:16,556 INFO /home/abhishek/.local/bin/bench worker
+2026-05-08 09:37:16,567 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-08 09:37:16,592 INFO /home/abhishek/.local/bin/bench watch
+2026-05-08 12:00:01,780 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-08 14:47:37,400 INFO /home/abhishek/.local/bin/bench start
+2026-05-08 14:47:37,619 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-08 14:47:37,637 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-08 14:47:37,670 INFO /home/abhishek/.local/bin/bench worker
+2026-05-08 14:47:37,676 INFO /home/abhishek/.local/bin/bench watch
+2026-05-11 10:25:28,277 INFO /home/abhishek/.local/bin/bench start
+2026-05-11 10:25:28,431 INFO /home/abhishek/.local/bin/bench watch
+2026-05-11 10:25:28,434 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-11 10:25:28,449 INFO /home/abhishek/.local/bin/bench worker
+2026-05-11 10:25:28,454 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-11 11:38:07,001 INFO /home/abhishek/.local/bin/bench --site car.local migrate
+2026-05-11 12:00:01,692 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-11 18:00:01,177 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-12 10:11:15,433 INFO /home/abhishek/.local/bin/bench start
+2026-05-12 10:11:15,624 INFO /home/abhishek/.local/bin/bench watch
+2026-05-12 10:11:15,625 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-12 10:11:15,642 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-12 10:11:15,670 INFO /home/abhishek/.local/bin/bench worker
+2026-05-12 12:00:01,446 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-12 12:19:21,888 INFO /home/abhishek/.local/bin/bench start
+2026-05-12 12:19:22,027 INFO /home/abhishek/.local/bin/bench watch
+2026-05-12 12:19:22,035 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-12 12:19:22,068 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-12 12:19:22,070 INFO /home/abhishek/.local/bin/bench worker
+2026-05-12 12:19:53,243 INFO /home/abhishek/.local/bin/bench start
+2026-05-12 12:19:53,381 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-12 12:19:53,413 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-12 12:19:53,415 INFO /home/abhishek/.local/bin/bench watch
+2026-05-12 12:19:53,418 INFO /home/abhishek/.local/bin/bench worker
+2026-05-12 16:44:56,547 INFO /home/abhishek/.local/bin/bench start
+2026-05-12 16:44:56,740 INFO /home/abhishek/.local/bin/bench watch
+2026-05-12 16:44:56,742 INFO /home/abhishek/.local/bin/bench worker
+2026-05-12 16:44:56,794 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-12 16:44:56,806 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-12 18:00:01,528 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-13 00:00:01,836 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-13 00:01:21,738 INFO /home/abhishek/.local/bin/bench satrt
+2026-05-13 00:01:30,510 INFO /home/abhishek/.local/bin/bench start
+2026-05-13 00:01:30,725 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-13 00:01:30,730 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-13 00:01:30,732 INFO /home/abhishek/.local/bin/bench watch
+2026-05-13 00:01:30,786 INFO /home/abhishek/.local/bin/bench worker
+2026-05-13 11:41:41,732 INFO /home/abhishek/.local/bin/bench start
+2026-05-13 11:41:41,917 INFO /home/abhishek/.local/bin/bench worker
+2026-05-13 11:41:41,932 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-13 11:41:41,933 INFO /home/abhishek/.local/bin/bench watch
+2026-05-13 11:41:41,948 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-13 12:00:01,884 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-13 12:09:08,752 INFO /home/abhishek/.local/bin/bench start
+2026-05-13 12:09:08,941 INFO /home/abhishek/.local/bin/bench worker
+2026-05-13 12:09:08,950 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-13 12:09:09,008 INFO /home/abhishek/.local/bin/bench watch
+2026-05-13 12:09:09,010 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-13 12:13:41,333 INFO /home/abhishek/.local/bin/bench start
+2026-05-13 12:13:41,541 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-13 12:13:41,541 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-13 12:13:41,546 INFO /home/abhishek/.local/bin/bench worker
+2026-05-13 12:13:41,603 INFO /home/abhishek/.local/bin/bench watch
+2026-05-13 13:10:05,771 INFO /home/abhishek/.local/bin/bench --site car.local migrate
+2026-05-13 13:10:09,338 INFO /home/abhishek/.local/bin/bench restart
+2026-05-13 13:10:18,882 INFO /home/abhishek/.local/bin/bench restart
+2026-05-13 16:24:40,333 INFO /home/abhishek/.local/bin/bench start
+2026-05-13 16:24:40,492 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-13 16:24:40,503 INFO /home/abhishek/.local/bin/bench worker
+2026-05-13 16:24:40,544 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-13 16:24:40,546 INFO /home/abhishek/.local/bin/bench watch
+2026-05-13 18:00:01,414 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-13 18:00:01,930 INFO /home/abhishek/.local/bin/bench start
+2026-05-13 18:00:02,278 INFO /home/abhishek/.local/bin/bench watch
+2026-05-13 18:00:02,278 INFO /home/abhishek/.local/bin/bench worker
+2026-05-13 18:00:02,291 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-13 18:00:02,312 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-13 18:07:54,265 INFO /home/abhishek/.local/bin/bench set-config -g developer_mode 1
+2026-05-14 12:00:01,245 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-14 18:00:02,060 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-15 12:00:01,991 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-15 18:00:01,892 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-18 12:00:02,015 INFO /home/abhishek/.local/bin/bench --verbose --site all backup
+2026-05-18 12:44:52,061 INFO /home/abhishek/.local/bin/bench start
+2026-05-18 12:44:52,225 INFO /home/abhishek/.local/bin/bench serve --port 8000
+2026-05-18 12:44:52,230 INFO /home/abhishek/.local/bin/bench watch
+2026-05-18 12:44:52,251 INFO /home/abhishek/.local/bin/bench schedule
+2026-05-18 12:44:52,260 INFO /home/abhishek/.local/bin/bench worker

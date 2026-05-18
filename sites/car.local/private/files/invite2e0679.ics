@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:GMT+5:30
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20260429T150000
+DTEND;TZID=Asia/Kolkata:20260429T165000
+DTSTAMP:20260420T080331Z
+ORGANIZER;CN=Gupteshwar Joshi:mailto:gupteshwar@indictranstech.com
+UID:4e2laa5jkhnief8av6deht7tj8@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Abhishek Patil;X-NUM-GUESTS=0:mailto:abhishek.sp@indictranstech.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/kcd-gqwu-oto
+X-MICROSOFT-CDO-OWNERAPPTID:-1191637024
+CREATED:20260409T052010Z
+DESCRIPTION:<p>Dear Team\,<br>As start of new year\, we are continuing our 
+ division of MVPs to build viable Product Ideas in house.</p><p>There are tw
+ o life cycles\, one is MVP and second is actual GTM. We are evolving with p
+ rocess for GTM\, for what we have as MVPs now.</p><p>So\, now we are lookin
+ g for more MVPs to take care of in current year. This is an initiative whic
+ h invites all ignited minds to come prepare your ideas and thoughts around 
+ the same.</p><p>Brainstorming often becomes random idea dumping instead of 
+ strategic exploration. Here are <strong>practical readiness pointers</stron
+ g> so the discussion is sharp\, relevant\, and outcome-driven:</p><p></p><u
+ l><li><em>What problem do you want to solve?</em> not <em>What solution can
+  we build?</em></li><li><em>Which industry do I understand well enough to b
+ uild for? Like Manufacturing\, Supply Chain\, Logistics\, retail etc.</em><
+ /li><li>Does something like this already exist? If yes\, what’s missing in 
+ current solutions?</li><li>Tangible Value:  Does it save time? Reduce error
+ s? Improve visibility Help management decision-making?</li></ul><br>If you 
+ have something and wish to share\, then come prepared and we would LOVE to 
+ hear you.<br><br><br>Thank You.\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: htt
+ ps://meet.google.com/kcd-gqwu-oto\n\nLearn more about Meet at: https://supp
+ ort.google.com/a/users/answer/9282720\n\nPlease do not edit this section.\n
+ -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~::~:~::-
+LAST-MODIFIED:20260420T080330Z
+LOCATION:https://meet.google.com/kcd-gqwu-oto
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Specialised Apps Brainstorming
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
